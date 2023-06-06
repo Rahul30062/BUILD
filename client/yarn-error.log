@@ -1,0 +1,74 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add qr-reader-react
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Users\ACER\OneDrive\Desktop\Python Projects\Scripts\C:\Program Files\nodejs;C:\Users\ACER\OneDrive\Desktop\Python Projects\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Java\jdk-11.0.13\bin;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;C:\Users\ACER\AppData\Local\Programs\Microsoft VS Code\bin;C:\rahul;C:\Users\ACER\adb;C:\adb;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.13\bin\bin\;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;C:\ProgramData\chocolatey\bin;C:\Users\ACER\flutter\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\ACER\OneDrive\Desktop\WebDev\netflix-clone-projectResume\netflix-build-project\node_modules\.bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\mongosh\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ACER\Python Folder\Scripts\;C:\Users\ACER\Python Folder\;C:\Users\ACER\OneDrive\Desktop\Python Projects\Scripts\;C:\Users\ACER\OneDrive\Desktop\Python Projects\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;C:\rahul;C:\Users\ACER\adb;C:\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\ACER\AppData\Roaming\Sublime Text 3\Packages\User;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;C:\Users\ACER\AppData\Local\atom\bin;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;C:\Users\ACER\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:8080/visitor/register",
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.9.5",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.4.0",
+      "babel-plugin-styled-components": "^2.1.1",
+      "qr-reader-react": "^1.0.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.8.0",
+      "react-redux": "^8.0.5",
+      "react-router-dom": "^6.11.1",
+      "react-scripts": "5.0.1",
+      "react-toastify": "^9.1.3",
+      "web-vitals": "^2.1.4",
+      "zustand": "^4.3.8"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
